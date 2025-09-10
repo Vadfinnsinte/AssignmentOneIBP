@@ -44,6 +44,6 @@ jobs:
 
         curl -H "Content-Type: application/json" \
              -X POST \
-             -d "{\"content\": \"$STATUS\nRepository: $REPO\n Author: $AUTHOR\"}" \
+             -d "{\"content\": \"$STATUS\nRepository: $REPO\nAuthor: $AUTHOR\"}" \
              ${{ secrets.DISCORD_WEBBHOOK }}
              

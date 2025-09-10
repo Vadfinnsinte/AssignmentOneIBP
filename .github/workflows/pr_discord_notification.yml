@@ -31,9 +31,9 @@ jobs:
     - name: Send Discord notification
       run: |
         if [ "${{ needs.build.result }}" == "success" ]; then
-          STATUS="? Build succeeded!"
+          STATUS="Build succeeded!"
         else
-          STATUS="? Build failed!"
+          STATUS="Build failed!"
         fi
         
         REPO="${{ github.repository }}"
@@ -41,6 +41,6 @@ jobs:
 
         curl -H "Content-Type: application/json" \
              -X POST \
-             -d "{\"content\": \"$STATUS\n?? Repository: $REPO\n?? Author: $AUTHOR\"}" \
+             -d "{\"content\": \"$STATUS\nRepository: $REPO\n Author: $AUTHOR\"}" \
              ${{ secrets.DISCORD_WEBBHOOK }}
              

@@ -1,2 +1,2 @@
 # AssignmentOne-Introduktion till Branschen & Programmering
-![PR Build Status](https://github.com/vadfinnsinte/AssignmentOneIBP/actions/workflows/pull_request_check.yml/badge.svg)
+![PR Build Status](https://github.com/vadfinnsinte/AssignmentOneIBP/actions/workflows/pr_discord_notification.yml/badge.svg)

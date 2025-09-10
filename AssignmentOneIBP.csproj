@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include=".github\worklfows\pr_discord_notification.yml" />
+    <None Include=".github\workflows\pr_discord_notification.yml" />
   </ItemGroup>
 
 </Project>
